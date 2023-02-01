@@ -1,0 +1,26 @@
+/* --- Fonts Importing --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Quicksand:wght@300&family=Rufina&display=swap');
+
+/* ---- General Rules ---- */
+html {
+  scroll-behavior: smooth;
+}
+
+ion-icon {
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    margin-right: 5px;
+    transition: ease 0.4s all;
+}
+ion-icon:hover {
+    color: var(--secondary-color);;
+}
+.logo-image {
+    border-radius: 10px;
+}
+
+#cactive {
+    background: var(--white-color) !important;
+    color: var(--secondary-color) !important;
+  }
